@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(224, 224, 224);
+    height: 100%;
+    width: 100%;
+}
+
+#topspace {
+    height: 10rem;
+}
+
+#topbackspace {
+    height: 10rem;
+}
+
+#myname {
+    background-color: black;
+    color: white;
+    width: 60rem;
+}
+
+#myphoto {
+    background-image: url(./photo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -12em;
+}
+
+section {
+    margin: 1rem;
+}
+
+section>h1, section>h3 {
+    margin: -0.1em;
+}
+
+section>h3 {
+    letter-spacing: 0.5em;
+}
+
+#button {
+    padding: 0.5em 0;
+    vertical-align: middle;
+    text-align: center;
+    width: 3em;
+    background-color: black;
+    color: white;
+}
